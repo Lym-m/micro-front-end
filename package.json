@@ -1,0 +1,21 @@
+{
+  "name": "micro-front-end",
+  "version": "1.0.0",
+  "description": "本 DEMO 使用的是微前端框架 [qiankun](https://qiankun.umijs.org/zh/guide)。包含了三个应用：\r * main：主应用，使用 vue-cli 创建。\r * vue：子应用，使用 vue-cli 创建。\r * react: 子应用，使用的 react 16 版本。",
+  "scripts": {
+    "start": "node main-server.js",
+    "serve": "node vue-server.js",
+    "dev": "node react-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lym-m/micro-front-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
